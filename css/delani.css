@@ -1,8 +1,27 @@
-body {
-    /* background-image: url(../img/bgpic.jpg) */
+/* body {
+    background: url(../img/bgpic.jpg)
     
+     
+} */
+
+.logo {
+    background: url(../img/logo.png) no-repeat;
+
 }
-.img {
-    size: 400px;
-    margin: 100px;
+.box{
+    width: 1200px;
+    height: 700px;        
+    background: url(../img/bgpic.jpg) no-repeat;
+    background-size: cover;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    
+} 
+.welcome {
+    text-align: center;
+    text-decoration: color white;
+    margin-top: 200px;
+    font-size: xx-large;
 }
