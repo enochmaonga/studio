@@ -1,1 +1,1 @@
-alert("my Name")
+// alert("my Name")
