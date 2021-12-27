@@ -49,5 +49,18 @@
 
 .wedo {
     text-align: center; 
-    
+   
+}
+
+.box2 {
+    display: flex;
+    float: center;
+}
+.box3 {
+    display: flex;
+    float: center;
+}
+.box4 {
+    display: flex;
+    float: right;
 }
