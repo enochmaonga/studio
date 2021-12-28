@@ -48,7 +48,8 @@
 }
 
 .wedo {
-    text-align: center; 
+    text-align: center;
+    margin-top: 20px; 
    
 }
 
@@ -86,6 +87,7 @@
     height: 180px;
     padding-right: 20px;
     margin-left: 170px;
+    
   }
   
 .row {
@@ -145,4 +147,44 @@
       background-color: none;
       text-decoration: white;
   }
+  .column2 {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+    display: flex;
+    margin-top: 10px;
+    align-content: center;
   
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+ .butt {
+     width: 40px;
+     height: 8px;
+     margin-top: 0px;
+     margin-left: 800px;
+ }
+ .center {
+     line-height: 1.5px;
+     font-style: italic;
+     font-weight: bold;
+ }
+
+.design {
+    /* display: none; */
+}
+ .development {
+    /* float: center; */
+    width: 30%;
+    padding: 0px;
+    /* width: 180px;
+    height: 180px; */
+    /* padding-right: 20px; */
+    margin-left: 400px;
+    /* display: none; */
+    margin-bottom: 40px;
+   
+ }
