@@ -14,3 +14,10 @@ $(document).ready(function(){
 
     });
 });
+$(document).ready(function(){
+    $(".product").click(function(){
+        $(".product-hidden").toggle();
+        $(".product-showing").toggle();
+
+    });
+});
