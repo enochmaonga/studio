@@ -175,14 +175,14 @@
 
 .design {
     /* display: none; */
+    width: 30%;
+    padding: 0px;
+    margin-bottom: 40px;
 }
  .development {
     /* float: center; */
     width: 30%;
     padding: 0px;
-    /* width: 180px;
-    height: 180px; */
-    /* padding-right: 20px; */
     margin-left: 400px;
     /* display: none; */
     margin-bottom: 40px;
