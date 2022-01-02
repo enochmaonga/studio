@@ -8,9 +8,9 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $(".development").click(function(){
-        $(".development-hidden").toggle();
-        $(".development-showing").toggle();
+    $("#development").click(function(){
+        $("#development-showing").toggle();
+        $(".hide-development-image").toggle();
 
     });
 });
