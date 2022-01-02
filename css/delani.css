@@ -53,27 +53,14 @@
    
 }
 
-/* .box2 {
-    display: flex;
-    float: center;
-    background-image: url("../img/design_icon.png") repeating-linear-gradient();
-    background-size: contain;
-    top:20px;
-    left:300px;
-    height: 200px;
-    width:200px;
-    position:relative;
-}
-.box3 {
-    display: flex;
-    float: center;
-    top:20px;
-    right: 400px;
-    height: 200px;
-    width:200px;
-    background-image: url("../img/dev_icon.png") repeating-linear-gradient();
-    background-size: contain;
-}
+.MouseClick {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .hide{
+    display:none;
+  }
 .box4 {
     display: flex;
     float: right;
@@ -109,10 +96,6 @@
     /* margin-right: 10px; */
     margin-top:1px;
   }
-  
-.row {
-    font-size: 10px;
-}
 
 .Portfolio {
     text-align: center;
@@ -142,12 +125,15 @@
     margin-top: 20px;  
     text-decoration-color: white;
   }
-  /* }
-  .container {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-  } */
+  .Hover {
+    opacity:0;
+    background-color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%; 
+  }
   
 .row1 {
     width: 1000px;
@@ -180,6 +166,8 @@
   .row {
     display: flex;
     justify-content: center;
+    font-size: 10px;
+    padding: 2%;
   }
  .butt {
      width: 40px;

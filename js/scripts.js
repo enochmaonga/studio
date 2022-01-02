@@ -1,9 +1,9 @@
 // alert("my Name is Erick")
 
 $(document).ready(function(){
-    $(".design").click(function(){
-        $(".design-hidden").toggle();
-        $(".design-showing").toggle();
+    $("#design").click(function(){
+        $("#design-showing").toggle();
+        $(".hide-design-image").toggle();
 
     });
 });
