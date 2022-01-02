@@ -15,9 +15,9 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $(".product").click(function(){
-        $(".product-hidden").toggle();
-        $(".product-showing").toggle();
+    $("#productManagement").click(function(){
+        $("#product-management-showing").toggle();
+        $(".hide-product-management").toggle();
 
     });
 });

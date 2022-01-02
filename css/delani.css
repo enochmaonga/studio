@@ -183,7 +183,7 @@
  }
 
 .design {
-    /* display: none; */
+    /* display: left; */
     width: 30%;
     padding: 0px;
     margin-bottom: 40px;
@@ -197,6 +197,7 @@
     /* display: none; */
     margin-bottom: 40px;
     margin-right: 40%;
+    height: 200px;
    
  }
  .product {
