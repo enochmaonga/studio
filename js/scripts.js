@@ -21,14 +21,14 @@ $(document).ready(function(){
 
     });
 });
-// $(document).ready(function() {
-// $(".Hover").hover(function(){
-//     $(this).animate({opacity:'1'});
-// }, 
-//     function(){
-//     $(this).animate({opacity:'0'});
-// });
-// });
+$(document).ready(function() {
+    $(".Hover").hover(function(){
+        $(this).animate({opacity:'1'});
+      },
+      function(){
+        $(this).animate({opacity:'0'});
+      })
+});
 $(document).ready(function(){
 $(".submit").click(function(){
     var name = $("#mce-fname").val();
@@ -41,10 +41,10 @@ $(".submit").click(function(){
         alert("Hi " + name + " We have received your message. Thank you for contacting us");
     }
 });
-$(".Hover").hover(function(){
-    $(this).animate({opacity:'1'}, 100,);
-}, 
-    function(){
-    $(this).animate({opacity:'0'}, 100);
-});
+// $(".Hover").hover(function(){
+//     $(this).animate({opacity:'1'}, 100,);
+// }, 
+//     function(){
+//     $(this).animate({opacity:'0'}, 100);
+// });
 });

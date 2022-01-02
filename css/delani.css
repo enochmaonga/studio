@@ -198,11 +198,11 @@
  }
 
 .design {
-    /* display: left; */
     width: 30%;
     padding: 0px;
     margin-bottom: 40px;
     margin-right: 80%;
+    text-align: center;
   
 }
  .development {
