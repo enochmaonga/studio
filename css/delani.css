@@ -124,6 +124,8 @@
     text-align: center;
     margin-top: 20px;  
     text-decoration-color: white;
+    /* display: cover;
+    padding: 10%; */
   }
   .Hover {
     opacity:0;
@@ -219,3 +221,15 @@
     margin-right: 10%;
     /* margin-top: 5%; */
  }
+ form #contact{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+input[type=text] {
+    background:transparent;
+    color: white;
+  }
+  textarea[type=text] {
+    background:transparent;
+    color: white;
+  }
