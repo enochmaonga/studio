@@ -191,7 +191,10 @@
      line-height: 1.5px;
      font-style: italic;
      font-weight: bold;
-     justify-content: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    text-align: center;
  }
 
 .design {
@@ -233,3 +236,7 @@ input[type=text] {
     background:transparent;
     color: white;
   }
+  /* .footer {
+      justify-content: center;
+      font: bold;
+  } */

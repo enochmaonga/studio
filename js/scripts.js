@@ -29,3 +29,12 @@ $(".Hover").hover(function(){
     $(this).animate({opacity:'0'});
 });
 });
+$(".submit").click(function(){
+    var name = $("#mce-fname").val();
+    var email = $("mce-email").val();
+    var message = $("#mce-mesage");
+    var key ="b417dfc18ca6a0e998f3fc8642553d4b-us20";
+    if (name == "" || email == "" || message == "") {
+        
+    }
+})
