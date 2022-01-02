@@ -27,5 +27,5 @@ $(".Hover").hover(function(){
 }, 
     function(){
     $(this).animate({opacity:'0'});
-})
+});
 });

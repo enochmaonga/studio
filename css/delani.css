@@ -134,6 +134,12 @@
     left:25%;
     right:25%; 
   }
+  .Hover {
+      opacity: 0;
+      background-color: white;
+      position: absolute;
+      top: 25%;
+  }
   .custom-info-on-portfolio {
     height: 260px;
     max-width: 260px;
