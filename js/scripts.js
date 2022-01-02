@@ -1,4 +1,4 @@
-// alert("my Name")
+// alert("my Name is Erick")
 
 $(document).ready(function(){
     $(".design").click(function(){
@@ -20,4 +20,9 @@ $(document).ready(function(){
         $(".product-showing").toggle();
 
     });
+});
+$("row").hover(function(){
+    $(".column1").css("background-color, white");
+}, function(){
+        $("column1").css("background-color, none");
 });
