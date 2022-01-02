@@ -134,7 +134,11 @@
     left:25%;
     right:25%; 
   }
-  
+  .custom-info-on-portfolio {
+    height: 260px;
+    max-width: 260px;
+    padding:20px;
+  }
 .row1 {
     width: 1000px;
     height: 200px;   
