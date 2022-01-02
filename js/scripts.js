@@ -21,8 +21,11 @@ $(document).ready(function(){
 
     });
 });
-$("row").hover(function(){
-    $(".column1").css("background-color, white");
-}, function(){
-        $("column1").css("background-color, none");
+$(document).ready(function() {
+$(".Hover").hover(function(){
+    $(this).animate({opacity:'1'});
+}, 
+    function(){
+    $(this).animate({opacity:'0'});
+})
 });
