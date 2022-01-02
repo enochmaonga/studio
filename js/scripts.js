@@ -35,6 +35,8 @@ $(".submit").click(function(){
     var message = $("#mce-mesage");
     var key ="b417dfc18ca6a0e998f3fc8642553d4b-us20";
     if (name == "" || email == "" || message == "") {
-        
+        alert("ok, but fill in all spaces correctly");
+    } else {
+        alert("Hi " + name + " We have received your message. Thank you for contacting us");
     }
-})
+});
