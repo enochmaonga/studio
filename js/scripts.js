@@ -29,6 +29,24 @@ $(document).ready(function() {
         $(this).animate({opacity:'0'});
       })
 });
+
+$(document).ready(function() {
+    $(".Hover1").hover(function(){
+        $(this).animate({opacity:'1'});
+      },
+      function(){
+        $(this).animate({opacity:'0'});
+      })
+});
+
+$(document).ready(function() {
+    $(".Hover2").hover(function(){
+        $(this).animate({opacity:'1'});
+      },
+      function(){
+        $(this).animate({opacity:'0'});
+      })
+});
 $(document).ready(function(){
 $(".submit").click(function(){
     var Name = $("#mce-FNAME").val();
